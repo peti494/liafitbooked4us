@@ -1,0 +1,63 @@
+.cookie-consent{
+
+    display:none;
+
+}
+
+#app-header {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.App {
+background-color:transparent;
+
+}
+
+.header__lateral {
+    display: none;
+
+}
+
+.footer {
+
+    display:none;
+
+}
+
+.App__container {
+
+    background-color:transparent;
+
+}
+
+.timetable
+{
+  background: transparent;
+
+}
+
+.stepper {
+
+    background-colr:transparent;
+
+}
+
+.header__links {
+
+    display: none;
+
+}
+
+.popup-background {
+
+    background-color: transparent;
+
+}
+
+.menu
+{
+  position: relative;
+  color: var(--light-text-color);
+  display: none;
+}
