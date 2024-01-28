@@ -59,9 +59,3 @@ background-color:transparent;
 
 }
 
-.menu
-{
-  position: relative;
-  color: var(--light-text-color);
-  display: none;
-}
