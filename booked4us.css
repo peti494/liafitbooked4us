@@ -58,9 +58,13 @@
     box-shadow: none;
 }
 
+.header {
+background-color:#fff9f4;
+  
+}
+
 .App {
 background-color:transparent;
-
 }
 
 
