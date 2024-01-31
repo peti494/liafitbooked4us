@@ -6,6 +6,12 @@
   background-color: #fff9f4;
 }
 
+.header__title
+{
+  display: none;
+}
+
+
 .App__container
 {
   background-color: #fff9f4;
