@@ -55,7 +55,6 @@
   background-color: transparent;
 }
 #app-header {
-  
     box-shadow: none;
 }
 
@@ -64,10 +63,6 @@ background-color:transparent;
 
 }
 
-.header__lateral {
-    display: none;
-
-}
 
 .footer {
 
