@@ -126,11 +126,7 @@ background-color:transparent;
     transitioin:0.2s;
 }
 
-.button--secondary:hover
-{
-  background-color: #626161;
-     transitioin:0.2s;
-}
+
 
 .day__week-day
 {
@@ -182,12 +178,7 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.button--secondary
-{
-  background-color: transparent;
-  border: 0px;
-  
-}
+
 .fc td, .fc th
 {
   border-style: solid;
@@ -234,6 +225,26 @@ body {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+.button--secondary:hover
+{
+  background-color: #626161;
+  transitioin: 0.2s;
+}
+.button--secondary:hover
+{
+  background-color: transparent;
+  color: var(--primary-button-bg-hover-color);
+  background-color: black;
+  color: white;
+}
+.button--secondary
+{
+  background-color: transparent;
+  border: 0px;
+  color: #3e3e3e;
+}
+
 
 .button--secondary-dangerous:hover
 {
