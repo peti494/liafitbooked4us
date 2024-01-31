@@ -54,8 +54,10 @@
 {
   background-color: transparent;
 }
-#app-header {
-    box-shadow: none;
+#app-header
+{
+  box-shadow: none;
+  background-color: #fff9f4;
 }
 
 .header {
