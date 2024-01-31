@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Caveat:wght@400;500;600;700&family=Dosis:wght@300&family=Indie+Flower&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 .cookie-consent{
 
     display:none;
@@ -59,3 +63,153 @@ background-color:transparent;
 
 }
 
+.step-number--touched .step-number__circle {
+
+  background-color: #1e1e1e;  
+    
+}
+.step-number__circle
+{
+  color: #fff;
+  width: 5.3rem;
+  height: 3.3rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+    
+.step-number--touched .step-number__title
+{
+  color: var(--dark-text-color);
+  text-transform: uppercase;
+}
+
+.booking-step__step-value
+{
+  text-transform: uppercase;
+}
+
+.button.booking-step__step-btn
+{
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  background-color: #1e1e1e;
+    transitioin:0.2s;
+}
+
+.button--secondary:hover
+{
+  background-color: #626161;
+     transitioin:0.2s;
+}
+
+.day__week-day
+{
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e1e1e;
+    text-transform: uppercase;
+}
+.fc-center h2
+{
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  vertical-align: middle;
+  text-align: center;
+  -ms-flex: 0 1 13em;
+  flex: 0 1 13em;
+  color: #626161;
+  text-transform: uppercase;
+}
+
+.step-number__title
+{
+  font-size: var(--text-heading-size);
+  font-weight: 400;
+  margin: .8rem 1.9rem;
+ 
+  text-transform: uppercase;
+  color: #1e1e1e;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button--secondary
+{
+  background-color: transparent;
+  border: 0px;
+  color: white;
+}
+.fc td, .fc th
+{
+  border-style: solid;
+  border-width: 2px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.popup-body
+{
+  background-color: #fff9f4;
+  border: 0px;
+  border-radius: .3rem;
+  z-index: var(--popup-level);
+  color: #3e3e3e;
+}
+
+.button--primary
+{
+  
+  color: #fff9f4;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #3e3e3e;
+  transition: 0.3s;
+}
+
+.button--primary:hover
+{
+  background-color: black;
+  transition: 0.3s;
+}
+
+.checkbox input:checked ~ .checkbox__checkmark
+{
+  background-color: #ffb300;
+  border-color: #df7b2200;
+}
+
+.checkbox .checkbox__checkmark::after
+{
+  left: .5rem;
+  top: .2rem;
+  width: .3rem;
+  height: .8rem;
+  border: solid #fff9f4;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+  border-width: 0 .3rem .3rem 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.button--secondary-dangerous:hover
+{
+  color: white;
+  background-color: var(--dangerous-hover-color);
+}
+.fc-scroller, body
+{
+  scrollbar-width: thin;
+  scrollbar-color: #ffb300;
+}
