@@ -5,6 +5,17 @@
 --site-bg-color: #fff9f4;
 }
 
+.hero-section__details
+{
+  background-color: transparent;
+  min-height: 9rem;
+  min-width: 9rem;
+  margin-top: 3rem;
+  overflow: hidden;
+  text-align: center;
+  z-index: var(--hero-section-level);
+  top: 0;
+}
 
 .App
 {
